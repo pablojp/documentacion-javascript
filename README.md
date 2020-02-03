@@ -25,7 +25,18 @@ Ahora, los patrones de diseño son una parte esencial del desarrollo de software
 
 Hubo 23 patrones de diseño introducidos en el libro original.
 
-> Agregar tabla con patrones
+Creacionales | Basados en el concepto de crear un objeto 
+--- | ---
+*Class* |  
+Factory Method | Esto crea una instancia de varias clases derivadas basadas en datos o eventos interconectados.
+*Object* |
+Abstract Factory | Cree una instancia de varias familias sin detallar clases concretas.
+Builder | Separa la construcción del objeto de su representación, siempre crea el mismo tipo de objeto.
+Prototype | Una instancia completamente inicializada utilizada para copiar y clonar.
+Singleton | Una clase con solo una instancia con puntos de acceso global.
+
+> faltan 2 tablas mas
+
 
 Los patrones de diseño son beneficiosos por varias razones. Son soluciones comprobadas que los veteranos de la 
 industria han probado y probado. Son enfoques sólidos que resuelven problemas de una manera ampliamente aceptada y 
