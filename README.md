@@ -57,35 +57,29 @@ Los patrones de diseño generalmente se clasifican en tres grupos principales.
 Como su nombre indica, estos patrones son para manejar mecanismos de creación de objetos. Un patrón de diseño 
 creacional básicamente resuelve un problema controlando el proceso de creación de un objeto.
 
-Analizaremos en detalle los siguientes patrones: Patrón de constructor, Patrón de fábrica, Patrón de prototipo y Patrón de Singleton.
+Analizaremos en detalle los siguientes patrones:
+ * [Constructor](/patrones/constructor.md)
+ * [Factory](/patrones/factory.md)
+ * [Prototype](/patrones/prototype.md)
+ * [Singleton](/patrones/singleton.md)
+ 
 
 #### Patrones de diseño estructural
 Estos patrones se refieren a la composición de clases y objetos. Ayudan a estructurar o reestructurar una o más partes 
 sin afectar todo el sistema. En otras palabras, ayudan a obtener nuevas funcionalidades sin alterar las existentes.
 
-Discutiremos los siguientes patrones en detalle: Patrón de adaptador, Patrón compuesto, Patrón de decoración, Patrón de 
-fachada, Patrón de peso mosca y Patrón de proxy.
-
-#### Patrones de diseño conductual
-Estos patrones están relacionados con la mejora de la comunicación entre objetos diferentes.
-
-Analizaremos en detalle los siguientes patrones: Patrón de cadena de responsabilidad, Patrón de comando, Patrón de 
-iterador, Patrón de mediador, Patrón de observador, Patrón de estado, Patrón de estrategia y Patrón de plantilla.
-
-------
-
-Patrones
-
- * [Constructor](/patrones/constructor.md)
- * [Factory](/patrones/factory.md)
- * [Prototype](/patrones/prototype.md)
- * [Singleton](/patrones/singleton.md)
+Discutiremos los siguientes patrones en detalle: 
  * [Adapter](/patrones/adapter.md)
  * [Composite](/patrones/composite.md) (falta agregar imagen)
  * [Decorator](/patrones/decorator.md)
  * [Facade](/patrones/facade.md)
  * [Flyweight](/patrones/flyweight.md)
  * [Proxy](/patrones/proxy.md)
+
+#### Patrones de diseño conductual
+Estos patrones están relacionados con la mejora de la comunicación entre objetos diferentes.
+
+Analizaremos en detalle los siguientes patrones: 
  * [Chain of Responsibility](/patrones/chain_of_responsibility.md)
  * [Command](/patrones/command.md)
  * [Iterator](/patrones/iterator.md)
