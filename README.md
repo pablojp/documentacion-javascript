@@ -27,9 +27,9 @@ Hubo 23 patrones de diseño introducidos en el libro original.
 
 Creacionales | Basados en el concepto de crear un objeto 
 --- | ---
-*Class* --------------- |  
+*Class* | -----------------------------------------------  
 Factory Method | Esto crea una instancia de varias clases derivadas basadas en datos o eventos interconectados.
-*Object* -------------- |
+*Object* | -----------------------------------------------
 Abstract Factory | Cree una instancia de varias familias sin detallar clases concretas.
 Builder | Separa la construcción del objeto de su representación, siempre crea el mismo tipo de objeto.
 Prototype | Una instancia completamente inicializada utilizada para copiar y clonar.
