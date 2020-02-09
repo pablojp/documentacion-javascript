@@ -11,6 +11,8 @@
     * [La función compose](#la-función-compose)
     * [Pointfree](#pointfree)
 
+Otros
+* https://levelup.gitconnected.com/understanding-functional-programming-in-javascript-a-complete-guide-e85ed13b42c8
 
 La programación funcional de aprendizaje tiene la reputación de ser muy desafiante. Sin embargo, este es el caso de 
 cualquier habilidad que intentes dominar. Entonces, diría que aprender programación funcional no es peor que aprender a 
