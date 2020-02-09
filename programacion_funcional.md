@@ -1,10 +1,18 @@
 # Programación funcional en Javascript
 
-La programación funcional de aprendizaje tiene la reputación de ser muy desafiante. Sin embargo, este es el caso de cualquier habilidad que intentes dominar. Entonces, diría que aprender programación funcional no es peor que aprender a programar en general, es simplemente diferente.
+La programación funcional de aprendizaje tiene la reputación de ser muy desafiante. Sin embargo, este es el caso de 
+cualquier habilidad que intentes dominar. Entonces, diría que aprender programación funcional no es peor que aprender a 
+programar en general, es simplemente diferente.
 
 ## Inmutabilidad
 
-En la Programación Funcional (FP), tratamos de mutar nuestros datos lo menos posible. En caso de que no esté seguro de lo que esto significa, otra forma de decirlo es que tratamos de cambiar el valor de nuestras variables lo menos posible. Por ejemplo, tome la siguiente declaración:const a = 1;
+En la Programación Funcional (FP), tratamos de mutar nuestros datos lo menos posible. En caso de que no esté seguro de 
+lo que esto significa, otra forma de decirlo es que tratamos de cambiar el valor de nuestras variables lo menos posible. 
+Por ejemplo, tome la siguiente declaración:
+
+```javascript
+const a = 1;
+```
 
 La variable `a` nunca debe cambiar. Nunca debería ser otra cosa que 1. En este caso, estamos usando el `const`, por lo 
 que no podemos cambiarlo sin ningún error. Sin embargo, las matrices le permiten a usted `push` o `pop` de elementos incluso 
