@@ -1,5 +1,17 @@
 # Programación funcional en Javascript
 
+## Indice
+
+* [Inmutabilidad](/#inmutabilidad)
+* [Funciones puras](/#funciones-puras)
+* [Currying](/#currying)
+    * [Aplicación parcial](/#aplicación-parcial)
+* [Componer](/#componer)
+    * [¿Qué es componer?](/#qué-es-componer)
+    * [La función compose](/#la-función-compose)
+    * [Pointfree](/#pointfree)
+
+
 La programación funcional de aprendizaje tiene la reputación de ser muy desafiante. Sin embargo, este es el caso de 
 cualquier habilidad que intentes dominar. Entonces, diría que aprender programación funcional no es peor que aprender a 
 programar en general, es simplemente diferente.
@@ -158,8 +170,9 @@ const add2 = function (b) {
 }
 ```
 
+## Componer
 
-## ¿Qué es componer?
+### ¿Qué es componer?
 
 Puede que no te sorprenda que las funciones son los bloques de construcción más fundamentales en la Programación 
 Funcional (FP). Esto también es cierto cuando se codifica en un estilo orientado a objetos, pero en FP los usamos de 
@@ -227,7 +240,7 @@ cosa, tendrá menos duplicación de código. También tendrá menos errores, y s
 comprobables, uno de los grandes beneficios de usar funciones puras.
 
 
-## La función compose
+### La función compose
 
 Como puede haber descubierto, tener funciones envueltas en una función que nuevamente está envuelta en una función, 
 no es exactamente bueno para la legibilidad. Entonces, ¿por qué no escribimos nuestra propia función para manejar esto? 
@@ -283,7 +296,7 @@ También hay una contraparte que funciona de izquierda a derecha, normalmente ll
 entender leer de derecha a izquierda, no dude en usar `pipe`. Pero normalmente, no tomará mucho tiempo acostumbrarse 
 `compose`.
 
-## Pointfree
+### Pointfree
 
 Necesito consesarme. Hay otra técnica que te he estado ocultando. ¿Se dio cuenta de que no usamos ningún paréntesis 
 después `exclaim`, `trim` y `capitalize` cuando compusimos? ¿Como puede ser? Bueno, estamos utilizando un concepto 
