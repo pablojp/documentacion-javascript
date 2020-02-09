@@ -2,14 +2,14 @@
 
 ## Indice
 
-* [Inmutabilidad](/#inmutabilidad)
-* [Funciones puras](/#funciones-puras)
-* [Currying](/#currying)
-    * [Aplicación parcial](/#aplicación-parcial)
-* [Componer](/#componer)
-    * [¿Qué es componer?](/#qué-es-componer)
-    * [La función compose](/#la-función-compose)
-    * [Pointfree](/#pointfree)
+* [Inmutabilidad](#inmutabilidad)
+* [Funciones puras](#funciones-puras)
+* [Currying](#currying)
+    * [Aplicación parcial](#aplicación-parcial)
+* [Componer](#componer)
+    * [¿Qué es componer?](#qué-es-componer)
+    * [La función compose](#la-función-compose)
+    * [Pointfree](#pointfree)
 
 
 La programación funcional de aprendizaje tiene la reputación de ser muy desafiante. Sin embargo, este es el caso de 
